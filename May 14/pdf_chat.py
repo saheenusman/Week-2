@@ -17,10 +17,10 @@ warnings.filterwarnings("ignore", category=DeprecationWarning, module='langchain
 
 # === SET CREDENTIALS DIRECTLY ===
 # Service account JSON
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\sahee\OneDrive\Desktop\Lealabs\WEEK 2\May 14\expanded-symbol-459706-c2-1300aa0869c4.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r""
 
 # API key (used by generativeai SDK)
-genai.configure(api_key="AIzaSyDDaUTEWZGkEvfT46SVH_qOs_QPQJcHLsg")
+genai.configure(api_key="")
 
 # === INIT CHROMA CLIENT ===
 chroma_client = chromadb.PersistentClient(path="chromadb_store")
