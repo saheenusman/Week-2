@@ -63,12 +63,12 @@ async def main():
         is_termination_msg=lambda x: x.get("content", "").strip().endswith("TERMINATE"),
     )
 
-    # 🧠 Use the async version of the method
+    # Use the async version of the method
     await user_proxy.a_initiate_chat(
         group_manager,
         message="Plan a 3 day trip to Nepal."
     )
 
-# 🔁 This line runs the async function
+# This line runs the async function
 if __name__ == "__main__":
     asyncio.run(main())
