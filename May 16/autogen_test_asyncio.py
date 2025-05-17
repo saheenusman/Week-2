@@ -4,7 +4,7 @@ import asyncio
 config_list = [
     {
         'model': 'gemini-2.0-flash',
-        'api_key': 'AIzaSyDDaUTEWZGkEvfT46SVH_qOs_QPQJcHLsg',  # Replace with your actual API key
+        'api_key': '',  # Replace with your actual API key
         "api_type": "google",
     }
 ]
